@@ -1,0 +1,24 @@
+body{
+	margin:0;
+	padding:0;
+	width:1515px;
+	height:850px;
+}
+.video-div{
+	margin:0 auto auto 0;
+	padding:0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:1515px;
+	height:850px;
+}
+video{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1515px;
+	height:850px;
+	z-index: -999;
+	opacity: 0.5;
+}

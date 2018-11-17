@@ -1,0 +1,140 @@
+body{
+	height: 1420px;
+}
+header{
+	height: 1270px;
+}
+footer{
+	margin-top: 30px;
+}
+.goodbookscontent{
+  width: 70%;
+  height:1200px;
+  margin-top:250px;
+  margin-right:15%;
+  margin-left: 15%;
+  position: absolute;
+  -webkit-transform: translateY(-38%);
+  -moz-transform: translateY(-38%);
+  -ms-transform: translateY(-38%);
+}
+#goodbooksintro{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+#showpercentbyCate{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 600px;
+	top:0;
+}
+#goodbooksintro-title{
+	width: 600px;
+	height: 60px;
+	font-family:"黑体";
+	font-size:30px;
+	color:white;
+	padding-left:50px;
+	text-align:left;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+#goodbooksintro-marquee{
+	width: 500px;
+	height: 300px;
+	overflow:hidden;
+	text-align:left;
+	position: absolute;
+	color:white;
+	left: 0;
+	top:60px;
+	border-radius: 8px;
+	border: dashed #FFCE43 1px;
+}
+#goodbooksintro-marquee ul li{
+	list-style:none;
+	line-height:25px;
+}
+#goodbooksintro-marquee ul li a{
+	font-size: 22px;
+	font-family: "宋体";
+	color: white;
+}
+#BooksDldCnt{
+	width: 500px;
+	height: 350px;
+	position: absolute;
+	left: 0px;
+	top:400px;
+}
+#goodbooksguss{
+	width: 500px;
+	height: 200px;
+	position: absolute;
+	left: 550px;
+	top:400px;
+}
+#goodbooksguss-title{
+	width: 500px;
+	height: 50px;
+	position: absolute;
+	color:white;
+	font-family:"黑体";
+	font-size:18px;
+	left: 0;
+	top:0;
+}
+#onatherGroup{
+	border:none;
+	background-color:inherit;
+	height: 30px;
+	color: white;
+}
+#onatherGroup:hover{
+	cursor: pointer;
+}
+#goodbooksguss-content{
+	width: 500px;
+	height: 120px;
+	position: absolute;
+	left: 0;
+	top:50px;
+}
+.guessbooks{
+	width: 80px;
+	height: 120px;
+	position: relative;
+	float:left;
+	margin:0px auto auto 20px;
+}
+#goodbooksguss-content div img{
+	width: 80px;
+	height: 120px;
+}
+#goodbooksguss-content div:HOVER{
+	cursor: pointer;
+}
+#goodbooks-marquee{
+	margin-left:20px;
+	width: 480px;
+	height: 120px;
+	position: absolute;
+	left: 550px;
+	top:600px;
+	overflow:hidden;
+}
+#goodbooks-marquee ul{list-style:none;}
+#goodbooks-marquee ul li{float:left; padding:0 10px;list-style: none;}
+#goodbooks-marquee ul li img{display:block;}
+#line-pic{
+	width: 1100px;
+	height: 300px;
+	position: absolute;
+	top: 800px;
+	left: 0px;
+}

@@ -1,0 +1,324 @@
+body{
+	height: 1500px;
+}
+header{
+	height: 1350px;
+}
+footer{
+	margin-top: 30px;
+}
+.price{
+	width: 50px;
+	height:20px;
+}
+.bookplay{
+  width: 70%;
+  height:1200px;
+  margin-top:210px;
+  margin-right:15%;
+  margin-left: 15%;
+  position: absolute;
+  -webkit-transform: translateY(-38%);
+  -moz-transform: translateY(-38%);
+  -ms-transform: translateY(-38%);
+}
+.bookplay table{
+	width: 100%;
+}
+
+.bookplay table thead tr{
+	width: 100%;
+	height: 360px;
+}
+/* .bookplay table tbody tr td{
+	border-bottom: dashed 1px #41A4F6;
+} */
+.jzoom{
+	/* position:absolute; */
+	width: 220px;
+	height: 290px;
+
+}
+.jzoom img{
+	border-radius:5px;
+}
+/* .bookplay table thead tr .img-container img{
+	width:100%;
+	height: 100%;
+} */
+.content-container{
+	width: 95%;
+	height: 315px;
+	padding: 5px 15px;
+	color: white;
+	font-family: "黑体";
+	font-size: 25px;
+}
+.content-container div{
+	margin-top: 8px;
+	text-align: left;
+}
+.content-container div a{
+	color: #B6DBFD;
+	font-size: 25px;
+}
+.imgarea{
+	width: 25%;
+}
+.imgarea01{
+	width: 10%;
+}
+.bookarea{
+	width: 75%;
+}
+.bookname{
+	float: left;
+	width: 60%;
+	height: 30px;
+	font-family: "宋体";
+	margin-top: 20px;
+}
+.shareuser{
+	float: left;
+	width: 60%;
+	height: 30px;
+	font-family: "宋体";
+	margin-top: 20px;
+}
+.sharetime{
+	float: left;
+	width: 70%;
+	height: 30px;
+	font-family: "Times New Roman";
+	margin-top: 20px;
+}
+.bookprice{
+	float: left;
+	width: 40%;
+	height: 30px;
+	font-family: "Times New Roman";
+	margin-top: 20px;
+}
+.scoreprice{
+	float: left;
+	width: 40%;
+	height: 30px;
+	font-family: "Times New Roman";
+	margin-top: 20px;
+}
+.cate{
+	float: left;
+	width: 70%;
+	height: 30px;
+	font-family: "宋体";
+	margin-top: 20px;
+}
+.press{
+	float: left;
+	width: 80%;
+	height: 30px;
+	font-family: "宋体";
+	margin-top: 20px;
+}
+.bookdescription{
+	margin-top:5px;
+	float: left;
+	width: 80%;
+	height: 40px;
+	font-family: "宋体";
+	margin-top: 20px;
+}
+.bookscore{
+	float: left;
+	width: 32%;
+	height: 30px;
+	font-family: "Times New Roman";
+	margin-top: 20px;
+}
+.downloadcnt{
+	float: left;
+	width: 50%;
+	height: 30px;
+	font-family: "Times New Roman";
+	margin-top: 20px;
+}
+/* -----------弹框---------- */
+.boo-details{
+    background: inherit;
+    float: left;
+    width: 17%;
+    padding-left:3px;
+    text-align:center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.box {
+	/* display: table; */
+    visibility: hidden;
+    float:left;
+    z-index: -1;
+    top:293px;
+    position: absolute; 
+    margin:0;
+    width: 1%;
+    height: 1%;
+    opacity: 0;
+    transition: 1s all;
+}
+.box .close {
+display:block;
+  cursor:pointer;
+  border:3px solid rgba(255, 255, 255, 1);
+  border-radius:50%;
+  position:absolute;
+  top:15px;
+  right:15px;
+  width:15px;
+  height:15px;
+  transition: .2s;
+  -webkit-transition-delay: 0.2s;
+  -ms-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  opacity:0;
+}
+
+.box .close:active {
+    top:10px;
+}
+
+.box .close::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  width: 80%;
+  height: 6%;
+  left: 10%;
+  top: 47%;
+}
+
+.box .close::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 1);
+  width: 6%;
+  height: 80%;
+  left: 47%;
+  top: 10%;
+} 
+.open {
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+	-webkit-transform:rotateY(360deg) ;
+    -ms-transform:rotateY(360deg) ;
+    transform: rotateY(360deg) ;
+    width: 33%;
+    height: 6%;
+    border-radius: 3px;
+}
+.box a{
+	position:absolute;
+	top:30%;
+	left:40%;
+	font-family: "黑体";
+}
+.box.open .close, .box.open p {
+    opacity: 1;
+} 
+/* -----------弹框---------- */
+
+
+/* -------------描述区 ---------- */
+#child01{
+	height: 50px;
+	width: 100%;
+	font-family:"黑体";
+	font-size:30px;
+	border-bottom: #99EE00 solid thin;
+}
+#child02{
+	height: 120px;
+	width: 100%;
+	font-family:"宋体";
+	font-size:20px;
+	color:#fff;
+}
+
+/* -------------评论区------------------ */
+tfoot{
+	height: 50px;
+	color:white;
+}
+DIV.yahoo2 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 0.85em; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; FONT-FAMILY: Tahoma,Helvetica,sans-serif; TEXT-ALIGN: center
+}
+DIV.yahoo2 A {
+	BORDER-RIGHT: #ccdbe4 1px solid; PADDING-RIGHT: 8px; BACKGROUND-POSITION: 50% bottom; BORDER-TOP: #ccdbe4 1px solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccdbe4 1px solid; COLOR: #ffffff; MARGIN-RIGHT: 3px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccdbe4 1px solid; TEXT-DECORATION: none
+}
+DIV.yahoo2 A:hover {
+	BORDER-RIGHT: #2b55af 1px solid; BORDER-TOP: #2b55af 1px solid; BACKGROUND-IMAGE: none; BORDER-LEFT: #2b55af 1px solid; COLOR: #fff; BORDER-BOTTOM: #2b55af 1px solid; BACKGROUND-COLOR: #3666d4
+}
+DIV.yahoo2 A:active {
+	BORDER-RIGHT: #2b55af 1px solid; BORDER-TOP: #2b55af 1px solid; BACKGROUND-IMAGE: none; BORDER-LEFT: #2b55af 1px solid; COLOR: #fff; BORDER-BOTTOM: #2b55af 1px solid; BACKGROUND-COLOR: #3666d4
+}
+DIV.yahoo2 SPAN.current {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #fff; MARGIN-RIGHT: 3px; PADDING-TOP: 2px
+}
+DIV.yahoo2 SPAN.disabled {
+	DISPLAY: none
+}
+DIV.yahoo2 A.next {
+	BORDER-RIGHT: #ccdbe4 2px solid; BORDER-TOP: #ccdbe4 2px solid; MARGIN: 0px 0px 0px 10px; BORDER-LEFT: #ccdbe4 2px solid; BORDER-BOTTOM: #ccdbe4 2px solid
+}
+DIV.yahoo2 A.next:hover {
+	BORDER-RIGHT: #2b55af 2px solid; BORDER-TOP: #2b55af 2px solid; BORDER-LEFT: #2b55af 2px solid; BORDER-BOTTOM: #2b55af 2px solid
+}
+DIV.yahoo2 A.prev {
+	BORDER-RIGHT: #ccdbe4 2px solid; BORDER-TOP: #ccdbe4 2px solid; MARGIN: 0px 10px 0px 0px; BORDER-LEFT: #ccdbe4 2px solid; BORDER-BOTTOM: #ccdbe4 2px solid
+}
+DIV.yahoo2 A.prev:hover {
+	BORDER-RIGHT: #2b55af 2px solid; BORDER-TOP: #2b55af 2px solid; BORDER-LEFT: #2b55af 2px solid; BORDER-BOTTOM: #2b55af 2px solid
+}
+
+.comments-div01{
+	width: 100%;
+	height: 50px;
+	background-color: inherit;
+	color: #fff;
+}
+.commentusername{
+	float: left;
+	margin-top:20px;
+	width: 35%;
+	height: 40px;
+	font-family: "宋体";
+}
+.commentscore{
+	float: left;
+	width: 30%;
+	margin-top:20px;
+	height: 30px;
+	font-family: "宋体";
+	text-align: center;
+}
+.commentime{
+	float: left;
+	width: 32%;
+	margin-top:20px;
+	height: 30px;
+	font-family: "宋体";
+	text-align: right;
+}
+.commentdescription{
+	float: left;
+	width: 90%;
+	height: 60px;
+	font-family: "宋体";
+}
+.background01{
+	background-color: #9BBCBC;
+}
+.background02{
+}

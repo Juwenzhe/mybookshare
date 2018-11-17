@@ -1,0 +1,195 @@
+body{
+	height: 900px;
+}
+header{
+	height: 870px;
+}
+footer{
+	margin-top: 30px;
+}
+
+.bookplay{
+  width: 80%;
+  height:700px;
+  margin-top:210px;
+  margin-right:10%;
+  margin-left: 10%;
+  position: absolute;
+  -webkit-transform: translateY(-63%);
+  -moz-transform: translateY(-63%);
+  -ms-transform: translateY(-63%);
+}
+.bookplay table{
+	margin:0 auto;
+	width: 80%;
+	border:solid 2px #FFCE43;
+	border-spacing: 2px;
+	border-collapse:separate;
+}
+.bookplay table thead{
+	width: 100%;
+	border:solid 1px #FFCE43;
+	border-spacing: 2px;
+}
+.bookplay table thead tr td{
+	height:120px;
+	color: white;
+	font-family: "黑体";
+	font-size: 30px;
+	text-align: center;
+	border:solid 1px #FFCE43;
+	border-spacing: 2px;
+}
+.td1{
+	color: white;
+	padding-right:20px;
+	height:60px;
+	width:25%;
+	font-family: "黑体";
+	font-size: 20px;
+	text-align: right;
+	border:solid 1px #FFCE43;
+	border-spacing: 2px;
+}
+.td2{
+	color: white;
+	height:60px;
+	padding-left:20px;
+	width:75%;
+	font-family: "黑体";
+	font-size: 20px;
+	text-align: left;
+	border:solid 1px #FFCE43;
+	border-spacing: 2px;
+}
+.td2 input{
+	border:none;
+	color: white;
+	height:40px;
+	padding-left:20px;
+	width:52%;
+	font-family: "黑体";
+	font-size: 20px;
+	text-align: left;
+	border:solid 1px #FFCE43;
+	border-radius: 5px;
+	background-color: inherit;
+}
+.bookname-warning{
+	display: none;
+	color: red;
+	position: absolute;
+	left: 62%;
+	top: 143px;
+}
+.bookname-info{
+	display: none;
+	width:30%;
+	height:40px;
+	color: yellow;
+	position: absolute;
+	left: 62%;
+	top: 143px;
+}
+.bookprice-warning{
+	display: none;
+	color: red;
+	width:30%;
+	height:40px;
+	position: absolute;
+	left: 62%;
+	top: 267px;
+}
+.bookprice-info{
+	display:none;
+	width:30%;
+	height:40px;
+	color: yellow;
+	position: absolute;
+	left: 62%;
+	top: 267px;
+}
+.bookscore-warning{
+	display: none;
+	color: red;
+	width:30%;
+	height:40px;
+	position: absolute;
+	left: 62%;
+	top: 330px;
+}
+.bookscore-info{
+	display:none;
+	width:30%;
+	height:40px;
+	color: yellow;
+	position: absolute;
+	left: 62%;
+	top: 330px;
+}
+.pressname-warning{
+	display: none;
+	color: red;
+	position: absolute;
+	left: 62%;
+	top: 392px;
+}
+.pressname-info{
+	display: none;
+	width:30%;
+	height:40px;
+	color: yellow;
+	position: absolute;
+	left: 62%;
+	top: 392px;
+}
+.select{
+	display: block;
+}
+.noselect{
+	display: none;
+}
+.td2 select{
+	border:none;
+	height:40px;
+	line-height:35px;
+	text-align:center;
+	color:#FF1042;
+	padding-left:20px;
+	width:52%;
+	font-family: "黑体";
+	font-size: 20px;
+	text-align: left;
+	border:solid 1px #FFCE43;
+	border-radius: 5px;
+}
+.td3 textarea{
+	border:none;
+	color: white;
+	height:120px;
+	width:100%;
+	padding-left:20px;
+	font-family: "黑体";
+	font-size: 20px;
+	text-align: left;
+	border:solid 1px #FFCE43;
+	border-spacing: 4px;
+	background-color: inherit;
+}
+tfoot tr td{
+	text-align: center;
+}
+tfoot tr td button{
+	border:none;
+	border-radius: 3px;
+	width: 280px;
+	height: 30px;
+	color: #fff;
+	font-family: "黑体";
+}
+.su{
+	background-color: #FFCE43;
+}
+.bu{
+	background-color: #559988;
+}
